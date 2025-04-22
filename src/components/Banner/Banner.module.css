@@ -1,0 +1,13 @@
+.banner {
+  background-color: #000;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 556;
+}
+
+.image {
+  object-fit: cover;
+}
