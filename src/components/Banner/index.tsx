@@ -10,6 +10,7 @@ export default function Banner() {
           alt="Banner"
           fill
           priority
+          style={{ objectFit: 'cover' }} // ou 'contain', dependendo do seu objetivo
         />
       </div>
     </header>

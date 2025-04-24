@@ -9,6 +9,7 @@
 }
 .ListaSuspensa select {
     background-color: #FFF;
+    color: black;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
     border: none;

@@ -5,9 +5,12 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 1440 / 556;
+  /* Diminua o valor da altura na proporção para reduzir a altura do wrapper */
+  aspect-ratio: 1440 / 400; /* Exemplo: diminui a altura proporcional */
+  /* Ou você pode usar uma proporção decimal diretamente */
+  /* aspect-ratio: 3.6; (1440 / 400 = 3.6) */
 }
 
 .image {
-  object-fit: cover;
+  object-fit: cover; /* Certifique-se de manter isso para o preenchimento */
 }
